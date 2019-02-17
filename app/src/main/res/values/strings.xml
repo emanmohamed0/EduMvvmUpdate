@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EduMvvm</string>
+    <string name="error_message_loading_users">error_message_loading_users</string>
+</resources>

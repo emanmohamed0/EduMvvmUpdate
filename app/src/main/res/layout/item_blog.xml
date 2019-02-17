@@ -1,0 +1,69 @@
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--<data>-->
+
+<!--<import type="android.view.View" />-->
+
+
+<!--<variable--><!--name="userViewModel"--><!--type="al7osam.com.edumvvm.viewModel.ItemBlogViewModel" />--><!--</data>-->
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_people"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardElevation="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/itemBlogimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:id="@+id/label_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_people"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/label_name"
+            android:layout_below="@+id/label_name"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/label_mail"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/label_phone"
+            android:layout_below="@+id/label_phone"
+            android:textColor="@android:color/secondary_text_light"
+
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <!--</layout>-->
